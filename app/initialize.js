@@ -1,4 +1,4 @@
-import {$} from '../vendor/vendor';
+import $ from 'orchestra';
 import App from './components/App';
 
 document.addEventListener('DOMContentLoaded', () => {

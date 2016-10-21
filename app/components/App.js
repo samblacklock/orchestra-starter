@@ -1,7 +1,7 @@
-import {Marionette} from '../../vendor/vendor';
+import {Application} from 'orchestra';
 import ItemView from './ItemView';
 
-export default Marionette.Application.extend({
+export default Application.extend({
   region: '#app',
 
   initialize() {
